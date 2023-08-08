@@ -42,11 +42,6 @@ page3btn.addEventListener("click", function () {
     show(3); 
 });
 
-/*for hamMenu */
-const hamBtn=document.querySelector("#hamIcon");
-hamBtn.addEventListener("click",toggleMenus);
-const menuItemsList=document.querySelector("nav ul");
-
 function toggleMenus(){ /*open and close menu*/
     menuItemsList.classList.toggle("menuHide");
     // if(menuItemsList.style.display=="block")
