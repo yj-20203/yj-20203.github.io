@@ -1,41 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+  <!-- Start of Head -->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Vogue</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <!-- End of Head -->
 
-<!-- Start of Head -->
+  <!-- Start of Body -->
+  <body>
+    <!-- Start of Header-->
+    <header>
+      <!-- Start of Navbar -->
+      <nav>
+        <img src="images/logo.png" alt="logo" />
+        <ul class="navMenu">
+          <li><a href="#about" class="active">About</a></li>
+          <li><a href="#styles">Styles</a></li>
+          <li><a href="#moves">Moves</a></li>
+          <li><a href="#history">History</a></li>
+          <!--<li><a href="#quiz">Quiz</a></li>-->
+        </ul>
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title> Vogue </title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="script.js" defer></script>
-</head>
-<!-- End of Head -->
+        <div class="hamburgerMenu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    </header>
 
-<!-- Start of Body -->
+    <section>
+      <div class="container"></div>
 
-<body>
-  <!-- Start of Header-->
-  <header>
-    <!-- Start of Navbar -->
-    <nav>
-      <img src="images/logo.png" alt="logo">
-      <ul class="navMenu">
-        <li><a href="#about" class="active">About</a></li>
-        <li><a href="#styles">Styles</a></li>
-        <li><a href="#moves">Moves</a></li>
-        <li><a href="#history">History</a></li>
-      </ul>
-      <input type="checkbox" name="" id="">
-      <div class="hamburgerMenu">
-        <span class="line1"></span>
-        <span class="line2"></span>
-        <span class="line3"></span>
+      <!-- Styles -->
+      <div class="container">
+        <p>3 Cards with Pop Up</p>
       </div>
-    </nav>
-  </header>
 
-</body>
+      <!-- Moves -->
+      <div class = "wrapper">
+      <div class="block">
+        <!--<p>coffee 6 containers 1/3 of the container</p>-->
+        <div class="flex-container">
+          <div class="left-container">
+            <img src="images/vogueOld1.jpg" alt="logo" />
+          </div>
+          <div class="right-container">
+            <h1>Heading</h1>
+            <p>
+              Old Way is characterized by the formation of lines, symmetry, and precision in the execution of formations with graceful, fluid-like Movement. Egyptian hieroglyphs, Martial Arts, Breakdance, Popping, Military Style and male fashion poses serve as the original inspirations for old way voguing.
+            </p>
+          </div>
+        </div>
 
+        <div class="flex-container">
+          <div class="left-container">
+            <img src="images/vogueOld1.jpg" alt="logo" />
+          </div>
+          <div class="right-container">
+            <h1>Heading</h1>
+            <p>
+              New Way is characterized by its precision while creating complex angles, boxes, lines and illusions with the arms, wrists and hands. It was inspired and created by performers who used to showcase extreme flexibility and poses inspired by contortionists, gymnastics, yoga and haute couture fashion.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex-container">
+          <div class="left-container">
+            <img src="images/vogueOld1.jpg" alt="logo" />
+          </div>
+          <div class="right-container">
+            <h1>Heading</h1>
+            <p>
+              Vogue Fem is based on old way performance and embodies an extremely feminine appearance and movement.The influences take a wide range from Modern Dance, Ballet, Figure Skating and Pantomime. It is known for the five elements : Hand/Arm Performance, Catwalk, Duckwalk, Spins & Dips and Floor Performance.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- History -->
+      <div class="container">
+        <p>Box transition down and up timeline</p>
+        <div class="centered-container">
+          <p>This is a centered container inside Container 2.</p>
+        </div>
+      </div>
+
+      <!-- Quiz -->
+      <div class="container">
+        <p>Buzzfeed quiz format</p>
+        <div class="centered-container">
+          <p>This is a centered container inside Container 2.</p>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
