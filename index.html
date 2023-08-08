@@ -19,11 +19,9 @@
       <nav>
         <img src="images/logo.png" alt="logo" />
         <ul class="navMenu">
-          <li><a href="#about" class="active">About</a></li>
-          <li><a href="#styles">Styles</a></li>
-          <li><a href="#moves">Moves</a></li>
-          <li><a href="#history">History</a></li>
-          <!--<li><a href="#quiz">Quiz</a></li>-->
+          <li><a href="#about" id="page1btn">About</a></li>
+          <li><a href="#styles" id="page2btn">Styles</a></li>
+          <li><a href="#moves" id="page3btn">Moves</a></li>
         </ul>
 
         <div class="hamburgerMenu">
@@ -35,65 +33,92 @@
     </header>
 
     <section>
-      <div class="container"></div>
+      <!-- About -->
+      <div class="page" id="page1">
+        <div class="block">
+          <div class="container">
 
-      <!-- Styles -->
-      <div class="container">
-        <p>3 Cards with Pop Up</p>
+          </div>
+        </div>
       </div>
 
       <!-- Moves -->
-      <div class="block">
-        <!--<p>coffee 6 containers 1/3 of the container</p>-->
-        <div class="flex-container">
-          <div class="left-container">
-            <img src="images/vogueOld1.jpg" alt="logo" />
+      <div class="page" id="page2">
+        <div class="block">
+          <div class="container">
+            <div class="move-container">
+              <div class="move-card">
+                <div class="move-img">
+                  <img src="images/vogue1.jpg" />
+                </div>
+              </div>
+              <div class="move-card">
+                <div class="move-img">
+                  <img src="images/vogue2.jpg" />
+                </div>
+              </div>
+              <div class="move-card">
+                <div class="move-img">
+                  <img src="images/vogue3.jpg" />
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="right-container">
-            <h1>Heading</h1>
-            <p>
-              Old Way is characterized by the formation of lines, symmetry, and precision in the execution of formations with graceful, fluid-like Movement. Egyptian hieroglyphs, Martial Arts, Breakdance, Popping, Military Style and male fashion poses serve as the original inspirations for old way voguing.
-            </p>
-          </div>
-        </div>
-
-        <div class="flex-container">
-          <div class="left-container">
-            <img src="images/vogueOld1.jpg" alt="logo" />
-          </div>
-          <div class="right-container">
-            <h1>Heading</h1>
-            <p>
-              New Way is characterized by its precision while creating complex angles, boxes, lines and illusions with the arms, wrists and hands. It was inspired and created by performers who used to showcase extreme flexibility and poses inspired by contortionists, gymnastics, yoga and haute couture fashion.
-            </p>
-          </div>
-        </div>
-
-        <div class="flex-container">
-          <div class="left-container">
-            <img src="images/vogueOld1.jpg" alt="logo" />
-          </div>
-          <div class="right-container">
-            <h1>Heading</h1>
-            <p>
-              Vogue Fem is based on old way performance and embodies an extremely feminine appearance and movement.The influences take a wide range from Modern Dance, Ballet, Figure Skating and Pantomime. It is known for the five elements : Hand/Arm Performance, Catwalk, Duckwalk, Spins & Dips and Floor Performance.
-            </p>
-          </div>
-        </div>
-
-      <!-- History -->
-      <div class="container">
-        <p>Box transition down and up timeline</p>
-        <div class="centered-container">
-          <p>This is a centered container inside Container 2.</p>
         </div>
       </div>
 
-      <!-- Quiz -->
-      <div class="container">
-        <p>Buzzfeed quiz format</p>
-        <div class="centered-container">
-          <p>This is a centered container inside Container 2.</p>
+      <div class="page" id="page3">
+        <!-- Moves -->
+        <div class="block">
+          <!--<p>coffee 6 containers 1/3 of the container</p>-->
+          <div class="flex-container">
+            <div class="left-container">
+              <img src="images/vogueOld1.jpg" alt="logo" />
+            </div>
+            <div class="right-container">
+              <h1>Old Way</h1>
+              <p>
+                Old Way is characterized by the formation of lines, symmetry,
+                and precision in the execution of formations with graceful,
+                fluid-like Movement. Egyptian hieroglyphs, Martial Arts,
+                Breakdance, Popping, Military Style and male fashion poses serve
+                as the original inspirations for old way voguing.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex-container">
+            <div class="left-container">
+              <img src="images/vogueNew1.jpg" alt="logo" />
+            </div>
+            <div class="right-container">
+              <h1>New Way</h1>
+              <p>
+                New Way is characterized by its precision while creating complex
+                angles, boxes, lines and illusions with the arms, wrists and
+                hands. It was inspired and created by performers who used to
+                showcase extreme flexibility and poses inspired by
+                contortionists, gymnastics, yoga and haute couture fashion.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex-container">
+            <div class="left-container">
+              <img src="images/vogueFemme1.jpg" alt="logo" />
+            </div>
+            <div class="right-container">
+              <h1>Vogue Fem</h1>
+              <p>
+                Vogue Fem is based on old way performance and embodies an
+                extremely feminine appearance and movement.The influences take a
+                wide range from Modern Dance, Ballet, Figure Skating and
+                Pantomime. It is known for the five elements : Hand/Arm
+                Performance, Catwalk, Duckwalk, Spins & Dips and Floor
+                Performance.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

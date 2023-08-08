@@ -1,3 +1,10 @@
+const burger = document.querySelector(".hamburgerMenu");
+const navLinks = document.querySelector(".navMenu");
+
+burger.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+});
+
 //target all elements to save to constants
 const page1btn=document.querySelector("#page1btn");
 const page2btn=document.querySelector("#page2btn");
